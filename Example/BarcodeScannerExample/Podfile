@@ -1,4 +1,6 @@
 use_frameworks!
 platform :ios, '11.0'
-pod 'BarcodeScanner', path: '../../'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+#pod 'BarcodeScanner', path: '../../'
+pod 'BarcodeScanner'
 target 'BarcodeScannerExample'
